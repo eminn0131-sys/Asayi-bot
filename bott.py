@@ -1,9 +1,10 @@
+import os
 import discord
 from discord import app_commands
 from discord.ext import commands
 
 # ============ AYARLAR ============
-TOKEN = "BOT_TOKENIN_BURAYA"          # ← SEN DOLDURACAKSIN
+TOKEN = os.getenv("TOKEN")              # ← GitHub'da görünmez
 ADMIN_ID = 1518482876566605877
 GUILD_ID = 1532403639115845742
 # =================================
